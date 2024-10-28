@@ -1,4 +1,4 @@
-body { 
+body {
 	background-color: #FFE3E3;
     color: rgb(50, 50, 50);
     font-family: "Nunito", serif;
@@ -38,19 +38,20 @@ div {
 	width: 900px;
 	margin: 30px auto;
 	border: none;
-	background: #FFE3E3 ;
+	background: #FFE3E3;
 }
 
-@media (max-width :760px){
+@media (max-width: 760px) {
 	.container {
-	width: 600px;
+		width: 600px;
+	}
 }
 
-@media (max-width :500px){
+@media (max-width: 600px) {
 	.container {
-	width: 400px;
+		width: 500px;
+	}
 }
-
 
 .box-design {
 	background: #FEF9F2;
@@ -91,6 +92,8 @@ div {
 	font-size: 50px;
 }
 
+
 #introduction p {
 	margin-bottom: 40px;
 }
+
